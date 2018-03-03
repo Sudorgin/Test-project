@@ -1,0 +1,163 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/*HEADER START*/
+
+.header {
+	
+	background-color: #2a2e33;
+}
+/*LOGO START*/
+.logo {
+	float: left;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: 30px;
+}
+
+.logo p {
+	display: block;
+	float: left;
+	margin: 0 auto;
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo p:last-child {
+	color: yellow;
+}
+
+/*LOGO END*/
+/*MAIN-NAVIGATION START*/
+ .main-navigation {
+ 	float: right;
+}
+
+.main-navigation li {
+	display: inline-block;
+	float: left;
+}
+
+.main-navigation a {
+	display: block;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-bottom: 35px;
+	padding-left: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-navigation li :hover {
+	background-color: #1e2329;
+}
+
+.main-navigation .active {
+	border-top: solid 3px #ffd700;
+}
+
+/*MAIN NAVIGATION END*/
+/*HEADER END*/
+/*BANNER START*/
+
+h1 {
+	display: block;
+	color: #fff;
+}
+
+.banner {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	min-height: 100px;
+	text-align: center;
+	background-color: #00ccff;
+}
+/*BANNER END*/
+/*MAIN-CONTENT START*/
+.gallery {
+
+}
+
+.main-content {
+	text-align: center;
+	background-color: #f8f8f8;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.slide {
+	display: block;
+	float: left;
+	width: 305px;
+	height: 160px;
+	margin-top: 30px;
+	margin-right: 20px;
+	background-color: black;
+}
+/*MAIN-CONTENT END*/
+/*CONTENT START*/
+.content {
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	min-height: 100px;
+	background-color: #e7cb2c;
+}
+
+.content h3 {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.content p {
+	color: #fff;
+}
+/*CONTENT END*/
+/*FOOTER START*/
+
+.main-footer {
+	background-color: #333333;
+}
+
+.copyright {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.copyright-1-2 {
+	width: 45%;
+	float: left;
+}
+
+.copyright-2-2 {
+	width: 45%;
+	float: left;
+}
+
+.copyright h4 {
+	color: #fff;
+}
+
+.copyright p {
+	color: #fff;
+}
+/*FOOTER END*/
