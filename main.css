@@ -20,13 +20,13 @@ ul {
 	margin: 0 auto;
 }
 
-/*HEADER START*/
+/*header*/
 
 .header {
 	
 	background-color: #2a2e33;
 }
-/*LOGO START*/
+/*logo*/
 .logo {
 	float: left;
 	margin-top: 35px;
@@ -45,9 +45,7 @@ ul {
 .logo p:last-child {
 	color: yellow;
 }
-
-/*LOGO END*/
-/*MAIN-NAVIGATION START*/
+/*main-navigation */
  .main-navigation {
  	float: right;
 }
@@ -74,11 +72,7 @@ ul {
 .main-navigation .active {
 	border-top: solid 3px #ffd700;
 }
-
-/*MAIN NAVIGATION END*/
-/*HEADER END*/
-/*BANNER START*/
-
+/*banner*/
 h1 {
 	display: block;
 	color: #fff;
@@ -91,12 +85,7 @@ h1 {
 	text-align: center;
 	background-color: #00ccff;
 }
-/*BANNER END*/
-/*MAIN-CONTENT START*/
-.gallery {
-
-}
-
+/*main-content*/
 .main-content {
 	text-align: center;
 	background-color: #f8f8f8;
@@ -113,8 +102,7 @@ h1 {
 	margin-right: 20px;
 	background-color: black;
 }
-/*MAIN-CONTENT END*/
-/*CONTENT START*/
+/*content*/
 .content {
 	margin-top: 10px;
 	padding-top: 20px;
@@ -131,9 +119,7 @@ h1 {
 .content p {
 	color: #fff;
 }
-/*CONTENT END*/
-/*FOOTER START*/
-
+/*main-footer*/
 .main-footer {
 	background-color: #333333;
 }
@@ -160,4 +146,3 @@ h1 {
 .copyright p {
 	color: #fff;
 }
-/*FOOTER END*/
